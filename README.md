@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40letea%2Fprettier-config.svg)](https://badge.fury.io/js/%40letea%2Fprettier-config)
 
-> My [Prettier](https://prettier.io) config.
+My [Prettier](https://prettier.io) config.
 
 ## Usage
 
