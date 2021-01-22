@@ -1,0 +1,22 @@
+{
+  "name": "@letea/prettier-config",
+  "version": "0.0.5",
+  "description": "My prettier config.",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamletea/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "letea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamletea/prettier-config/issues"
+  },
+  "homepage": "https://github.com/iamletea/prettier-config#readme"
+}
