@@ -38,7 +38,7 @@ x => { ... };
 ```
 
 ### bracketSpacing: true
-Add a space for the best reading to Developer.
+Add a space for the best reading to developers.
 ``` javascript
 // true
 { foo: bar }
@@ -48,7 +48,7 @@ Add a space for the best reading to Developer.
 ```
 
 ### jsxBracketSameLine: false
-Keep the same position of the bracket for the best reading to Developer.
+Keep the same position of the bracket for the best reading to developers.
 ``` jsx
 // false
 <button
@@ -69,7 +69,7 @@ Keep the same position of the bracket for the best reading to Developer.
 ```
 
 ### semi: true
-Make sure where is the end of the line for developer.
+Make sure where is the end of the line to developers.
 ``` javascript
 // true
 console.log("1");
