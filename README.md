@@ -39,7 +39,6 @@ x => { ... };
 
 ### bracketSpacing: true
 Add a space for the best reading to Developer.
-多個空間，提升閱讀性。
 ``` javascript
 // true
 { foo: bar }
