@@ -83,7 +83,7 @@ console.log("3")
 ```
 
 ### singleQuote: false
-Same with JSON format.
+Keep the same format with JSON.
 ``` javascript
 // false
 let item = "This is double quote";
@@ -109,7 +109,7 @@ if (true) {
 
 
 ### trailingComma: "none"
-Same with JSON format.
+Keep the same format with JSON.
 ``` javascript
 // "none"
 var object = {
