@@ -21,6 +21,114 @@ $ yarn add --dev @letea/prettier-config
 }
 ```
 
+## Style
+
+### arrowParens: "always"
+Keep the same style to all functions.
+``` javascript
+// always
+() => { ... };
+(x) => { ... };
+(x, y) => { ... };
+
+// avoid
+() => { ... };
+x => { ... };
+(x, y) => { ... };
+```
+
+### bracketSpacing: true
+Add a space for the best reading to Developer.
+多個空間，提升閱讀性。
+``` javascript
+// true
+{ foo: bar }
+
+//false
+{foo: bar}
+```
+
+### jsxBracketSameLine: false
+Keep the same position of the bracket for the best reading to Developer.
+``` jsx
+// false
+<button
+  className="prettier-class"
+  id="prettier-id"
+  onClick={this.handleClick}
+>
+  Click Here
+</button>
+
+// true
+<button
+  className="prettier-class"
+  id="prettier-id"
+  onClick={this.handleClick}>
+  Click Here
+</button>
+```
+
+### semi: true
+Make sure where is the end of the line for developer.
+``` javascript
+// true
+console.log("1");
+console.log("2");
+console.log("3");
+
+// false
+console.log("1")
+console.log("2")
+console.log("3")
+```
+
+### singleQuote: false
+Same with JSON format.
+``` javascript
+// false
+let item = "This is double quote";
+
+// true
+let item = 'This is single quote';
+```
+
+### tabWidth: 2
+The best space for reading.
+``` javascript
+// 2
+if (true) {
+  console.log("This tabWidth is 2.");
+}
+
+
+// 4
+if (true) {
+    console.log("This tabWidth is 4.");
+}
+```
+
+
+### trailingComma: "none"
+Same with JSON format.
+``` javascript
+// "none"
+var object = {
+  a: 1,
+  b: "2",
+  c: true
+}
+
+// "all"
+var object = {
+  a: 1,
+  b: "2",
+  c: true,
+}
+```
+
+
+
 ## Reference
 
 * [@azz/prettier-config](https://github.com/azz/prettier-config)
