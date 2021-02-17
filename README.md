@@ -130,4 +130,6 @@ var object = {
 
 ## Reference
 
+* [Prettier](https://prettier.io)
 * [@azz/prettier-config](https://github.com/azz/prettier-config)
+* [JSON - Wikipedia](https://zh.wikipedia.org/wiki/JSON)
