@@ -107,27 +107,6 @@ if (true) {
 }
 ```
 
-
-### trailingComma: "none"
-Keep the same format with [JSON](https://zh.wikipedia.org/wiki/JSON).
-``` javascript
-// "none"
-var object = {
-  a: 1,
-  b: "2",
-  c: true
-}
-
-// "all"
-var object = {
-  a: 1,
-  b: "2",
-  c: true,
-}
-```
-
-
-
 ## Reference
 
 * [Prettier](https://prettier.io)
